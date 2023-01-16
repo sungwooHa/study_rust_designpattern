@@ -1,4 +1,4 @@
-pub mod string_deserializer;
 pub mod deserializer;
-pub mod visitor;
+pub mod string_deserializer;
 pub mod vec_deserializer;
+pub mod visitor;

@@ -1,4 +1,4 @@
-use crate::deser::{visitor::Visitor, deserializer::Deserializer} ;
+use crate::deser::{deserializer::Deserializer, visitor::Visitor};
 
 pub struct VecDeserializer<V: Visitor> {
     visitor: V,

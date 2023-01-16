@@ -1,6 +1,5 @@
-
-use crate::deser::{visitor::Visitor, deserializer::Deserializer} ;
-struct StringDeserializer<V: Visitor> {
+use crate::deser::{deserializer::Deserializer, visitor::Visitor};
+pub struct StringDeserializer<V: Visitor> {
     visitor: V,
 }
 

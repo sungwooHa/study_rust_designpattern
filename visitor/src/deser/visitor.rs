@@ -1,4 +1,4 @@
-use crate::element::{TwoValuesStruct::TwoValuesStruct, TwoValuesArray::TwoValuesArray};
+use crate::element::{two_values_array::TwoValuesArray, two_values_struct::TwoValuesStruct};
 
 /// Visitor can visit one type, do conversions, and output another type.
 ///
