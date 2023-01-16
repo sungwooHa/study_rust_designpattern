@@ -1,2 +1,2 @@
-pub mod TwoValuesArray;
-pub mod TwoValuesStruct;
+pub mod two_values_array;
+pub mod two_values_struct;
